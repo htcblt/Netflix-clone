@@ -11,4 +11,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Netlify deployed
 
-[https://goofy-spence-7b9289.netlify.app/]
+https://goofy-spence-7b9289.netlify.app/
