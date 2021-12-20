@@ -1,0 +1,90 @@
+.login{
+    position:relative;
+    height: 100vh;
+    background:url('https://netflixjunkie.com/wp-content/uploads/2021/11/Netflix-Background-1.jpg') ;
+    background-size: cover;
+}
+
+.login__logo{
+    width: 100px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+}
+.login_button{
+    background-color: #fc0a0a;
+    padding: 10px 20px;
+    color:#fff;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position:fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.login_body{
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50);
+    text-align: center;
+    left: 0;
+    right: 0;
+
+}
+
+.login_body h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.login_body h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.login_body h3{
+     font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.login_body .login_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_body .login_form input{
+    width: 300px;
+    height: 40px;
+    padding: 0px 15px,;
+}
+
+.login_body .login_form button{
+    height: 45px;
+    border: 0;
+    padding: 0px 10px;
+    background-color: #fc0a0a;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.login_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top,
+    rgba(0,0,0,0.8) 0,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0) 100% 
+    );
+}
